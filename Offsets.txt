@@ -1,0 +1,2131 @@
+    "Base": {
+        "Cursor Base Address": "0x06C45F08",
+        "Cursor Offset": "0x240",
+        "Cursor Offset Chain": [],
+        "Team Base Address": "0x0",
+        "Team Offset Length": "0x1620",
+        "Player Base Address": "0x07E5DD88",
+        "Player Offset Chain": [],
+        "Player Offset Length": "0x448",
+        "Offset Appearance Data": "0x78",
+        "Offset First Name": "0x28",
+        "Offset Last Name": "0x0",
+        "Offset Face ID": "0x100",
+        "Offset Player Team": "0x60",
+        "Offset Player Team Name": "0x2D4",
+        "Offset Player Team Short Name": "0x32A",
+        "Offset Player Team Year": "0x161A",
+        "Offset Player Team Type": "0x12F7"
+    },
+    "Body": [
+        {
+            "name": "Height",
+            "offset": "0x0",
+            "length": 16
+        },
+        {
+            "name": "Wingspan",
+            "offset": "0x2",
+            "length": 16
+        },
+        {
+            "name": "Weight",
+            "offset": "0xF8",
+            "length": 16
+        }
+    ],
+    "Vitals": [
+        {
+            "name": "Face ID",
+            "offset": "0x100",
+            "startBit": 0,
+            "length": 16
+        },
+        {
+            "name": "Portrait ID",
+            "offset": "0x2D8",
+            "startBit": 0,
+            "length": 18
+        },
+        {
+            "name": "Headshot ID",
+            "offset": "0x385",
+            "startBit": 6,
+            "length": 15
+        },
+        {
+            "name": "Position",
+            "offset": "0x11D",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Secondary Position",
+            "offset": "0x11D",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Play Initiator",
+            "offset": "0x25F",
+            "startBit": 5,
+            "length": 1
+        },
+        {
+            "name": "Play Type 1",
+            "offset": "0x194",
+            "startBit": 0,
+            "length": 4
+        },
+        {
+            "name": "Play Type 2",
+            "offset": "0x194",
+            "startBit": 4,
+            "length": 4
+        },
+        {
+            "name": "Play Type 3",
+            "offset": "0x195",
+            "startBit": 0,
+            "length": 4
+        },
+        {
+            "name": "Play Type 4",
+            "offset": "0x195",
+            "startBit": 4,
+            "length": 4
+        },
+        {
+            "name": "Used Retirement Grace",
+            "offset": "0x362",
+            "startBit": 0,
+            "length": 1
+        },
+        {
+            "name": "Contract Thought",
+            "offset": "0x274",
+            "startBit": 0,
+            "length": 3
+        }
+    ],
+    "Attributes": [
+        {
+            "name": "Driving Layup",
+            "offset": "0x392",
+            "length": 8
+        },
+        {
+            "name": "Post Fade",
+            "offset": "0x393",
+            "length": 8
+        },
+        {
+            "name": "Post Hook",
+            "offset": "0x394",
+            "length": 8
+        },
+        {
+            "name": "Post Moves",
+            "offset": "0x395",
+            "length": 8
+        },
+        {
+            "name": "Draw Foul",
+            "offset": "0x396",
+            "length": 8
+        },
+        {
+            "name": "Close Shot",
+            "offset": "0x397",
+            "length": 8
+        },
+        {
+            "name": "Midrange Shot",
+            "offset": "0x398",
+            "length": 8
+        },
+        {
+            "name": "3pt Shot",
+            "offset": "0x399",
+            "length": 8
+        },
+        {
+            "name": "Free Throw",
+            "offset": "0x39A",
+            "length": 8
+        },
+        {
+            "name": "Ball Control",
+            "offset": "0x39B",
+            "length": 8
+        },
+        {
+            "name": "Passing IQ",
+            "offset": "0x39C",
+            "length": 8
+        },
+        {
+            "name": "Pass Accuracy",
+            "offset": "0x39D",
+            "length": 8
+        },
+        {
+            "name": "Offensive Rebound",
+            "offset": "0x39E",
+            "length": 8
+        },
+        {
+            "name": "Standing Dunk",
+            "offset": "0x3A7",
+            "length": 8
+        },
+        {
+            "name": "Driving Dunk",
+            "offset": "0x3A8",
+            "length": 8
+        },
+        {
+            "name": "Shot IQ",
+            "offset": "0x3B0",
+            "length": 8
+        },
+        {
+            "name": "Passing Vision",
+            "offset": "0x3C5",
+            "length": 8
+        },
+        {
+            "name": "Hands",
+            "offset": "0x3C6",
+            "length": 8
+        },
+        {
+            "name": "Defensive Rebound",
+            "offset": "0x39F",
+            "length": 8
+        },
+        {
+            "name": "Interior Defense",
+            "offset": "0x3A0",
+            "length": 8
+        },
+        {
+            "name": "Perimeter Defense",
+            "offset": "0x3A1",
+            "length": 8
+        },
+        {
+            "name": "Block",
+            "offset": "0x3A3",
+            "length": 8
+        },
+        {
+            "name": "Steal",
+            "offset": "0x3A4",
+            "length": 8
+        },
+        {
+            "name": "Speed",
+            "offset": "0x3A9",
+            "length": 8
+        },
+        {
+            "name": "Speed with Ball",
+            "offset": "0x3AA",
+            "length": 8
+        },
+        {
+            "name": "Vertical",
+            "offset": "0x3AB",
+            "length": 8
+        },
+        {
+            "name": "Strength",
+            "offset": "0x3AC",
+            "length": 8
+        },
+        {
+            "name": "Stamina",
+            "offset": "0x3AD",
+            "length": 8
+        },
+        {
+            "name": "Hustle",
+            "offset": "0x3AE",
+            "length": 8
+        },
+        {
+            "name": "Agility",
+            "offset": "0x3AF",
+            "length": 8
+        },
+        {
+            "name": "Pass Perception",
+            "offset": "0x3A2",
+            "length": 8
+        },
+        {
+            "name": "Defensive Consistency",
+            "offset": "0x3A5",
+            "length": 8
+        },
+        {
+            "name": "Help Defense IQ",
+            "offset": "0x3A6",
+            "length": 8
+        },
+        {
+            "name": "Offensive Consistency",
+            "offset": "0x3B1",
+            "length": 8
+        },
+        {
+            "name": "Intangibles",
+            "offset": "0x3B2",
+            "length": 8
+        },
+        {
+            "name": "Potential",
+            "offset": "0x3B3",
+            "length": 8
+        },
+        {
+            "name": "Head Durability",
+            "offset": "0x3B4",
+            "length": 8
+        },
+        {
+            "name": "Left Shoulder Durability",
+            "offset": "0x3B5",
+            "length": 8
+        },
+        {
+            "name": "Right Shoulder Durability",
+            "offset": "0x3B6",
+            "length": 8
+        },
+        {
+            "name": "Left Elbow Durability",
+            "offset": "0x3B7",
+            "length": 8
+        },
+        {
+            "name": "Right Elbow Durability",
+            "offset": "0x3B8",
+            "length": 8
+        },
+        {
+            "name": "Left Hand Durability",
+            "offset": "0x3B9",
+            "length": 8
+        },
+        {
+            "name": "Right Hand Durability",
+            "offset": "0x3BA",
+            "length": 8
+        },
+        {
+            "name": "Left Hip Durability",
+            "offset": "0x3BB",
+            "length": 8
+        },
+        {
+            "name": "Right Hip Durability",
+            "offset": "0x3BC",
+            "length": 8
+        },
+        {
+            "name": "Left Knee Durability",
+            "offset": "0x3BD",
+            "length": 8
+        },
+        {
+            "name": "Right Knee Durability",
+            "offset": "0x3BE",
+            "length": 8
+        },
+        {
+            "name": "Left Ankle Durability",
+            "offset": "0x3BF",
+            "length": 8
+        },
+        {
+            "name": "Right Ankle Durability",
+            "offset": "0x3C0",
+            "length": 8
+        },
+        {
+            "name": "Left Foot Durability",
+            "offset": "0x3C1",
+            "length": 8
+        },
+        {
+            "name": "Right Foot Durability",
+            "offset": "0x3C2",
+            "length": 8
+        },
+        {
+            "name": "Miscanellous Durability",
+            "offset": "0x3C3",
+            "length": 8
+        }
+    ],
+    "Badges": [
+        {
+            "name": "Float Game",
+            "offset": "0x42C",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Posterizer",
+            "offset": "0x42D",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Rise Up",
+            "offset": "0x42D",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Aerial Wizard",
+            "offset": "0x42E",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Hook Specialist",
+            "offset": "0x42E",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Layup Mixmaster",
+            "offset": "0x436",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Paint Prodigy",
+            "offset": "0x437",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Physical Finisher",
+            "offset": "0x437",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Post Powerhouse",
+            "offset": "0x438",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Post-Up Poet",
+            "offset": "0x438",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Post Fade Phenom",
+            "offset": "0x42E",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Deadeye",
+            "offset": "0x42F",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Limitless Range",
+            "offset": "0x42F",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Slippery Off-Ball",
+            "offset": "0x430",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Mini Marksman",
+            "offset": "0x438",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Set Shot Specialist",
+            "offset": "0x439",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Shifty Shooter",
+            "offset": "0x439",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Bail Out",
+            "offset": "0x430",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Break Starter",
+            "offset": "0x430",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Dimer",
+            "offset": "0x431",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Handles for Days",
+            "offset": "0x431",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Unpluckable",
+            "offset": "0x431",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Versatile Visionary",
+            "offset": "0x439",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Ankle Assassin",
+            "offset": "0x43A",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Lightning Launch",
+            "offset": "0x43A",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Strong Handle",
+            "offset": "0x43B",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Post Lockdown",
+            "offset": "0x432",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Challenger",
+            "offset": "0x432",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Off-Ball Pest",
+            "offset": "0x433",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Pick Dodger",
+            "offset": "0x433",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Glove",
+            "offset": "0x434",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Interceptor",
+            "offset": "0x434",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Pogo Stick",
+            "offset": "0x434",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "On-Ball Menace",
+            "offset": "0x43B",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "High-Flying Denier",
+            "offset": "0x43C",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Paint Patroller",
+            "offset": "0x43C",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Brick Wall",
+            "offset": "0x435",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Immovable Enforcer",
+            "offset": "0x436",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Boxout Beast",
+            "offset": "0x435",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Rebound Chaser",
+            "offset": "0x435",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Reserved",
+            "offset": "0x42A",
+            "startBit": 6,
+            "length": 1
+        },
+        {
+            "name": "Friendly",
+            "offset": "0x42A",
+            "startBit": 7,
+            "length": 1
+        },
+        {
+            "name": "Team Player",
+            "offset": "0x42B",
+            "startBit": 0,
+            "length": 1
+        },
+        {
+            "name": "Extremely Confident",
+            "offset": "0x42B",
+            "startBit": 1,
+            "length": 1
+        },
+        {
+            "name": "Keep It Real",
+            "offset": "0x42B",
+            "startBit": 2,
+            "length": 1
+        },
+        {
+            "name": "Pat My Back",
+            "offset": "0x42B",
+            "startBit": 3,
+            "length": 1
+        },
+        {
+            "name": "Expressive",
+            "offset": "0x42B",
+            "startBit": 4,
+            "length": 1
+        },
+        {
+            "name": "Unpredictable",
+            "offset": "0x42B",
+            "startBit": 5,
+            "length": 1
+        },
+        {
+            "name": "Laid Back",
+            "offset": "0x42B",
+            "startBit": 6,
+            "length": 1
+        },
+        {
+            "name": "Media Ringmaster",
+            "offset": "0x42B",
+            "startBit": 7,
+            "length": 1
+        },
+        {
+            "name": "Warm Weather Fan",
+            "offset": "0x42C",
+            "startBit": 0,
+            "length": 1
+        },
+        {
+            "name": "Finance Savvy",
+            "offset": "0x42C",
+            "startBit": 1,
+            "length": 1
+        },
+        {
+            "name": "Alpha Dog",
+            "offset": "0x42C",
+            "startBit": 2,
+            "length": 1
+        },
+        {
+            "name": "Enforcer",
+            "offset": "0x42C",
+            "startBit": 3,
+            "length": 1
+        },
+        {
+            "name": "Work Ethic",
+            "offset": "0x42C",
+            "startBit": 4,
+            "length": 3
+        }
+    ],
+    "Tendencies": [
+        {
+            "name": "Contested Jumper Mid",
+            "offset": "0x3EA",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Contested Jumper 3pt",
+            "offset": "0x3E9",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Drive Pull Up Mid",
+            "offset": "0x3F0",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Drive Pull Up 3pt",
+            "offset": "0x3F0",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Off Screen Shot Mid",
+            "offset": "0x3DC",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Off Screen Shot 3pt",
+            "offset": "0x3E4",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Shot Close",
+            "offset": "0x3D5",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Shot Close Left",
+            "offset": "0x3D6",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Shot Close Middle",
+            "offset": "0x3D8",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Shot Close Right",
+            "offset": "0x3D8",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid Center",
+            "offset": "0x3DE",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid Left",
+            "offset": "0x3DC",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid Left Center",
+            "offset": "0x3DD",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid Right",
+            "offset": "0x3E0",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid Right Center",
+            "offset": "0x3E0",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Shot Mid",
+            "offset": "0x3D9",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt",
+            "offset": "0x3E1",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt Center",
+            "offset": "0x3E6",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt Left",
+            "offset": "0x3E4",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt Left Center",
+            "offset": "0x3E5",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt Right",
+            "offset": "0x3E8",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shot 3pt Right Center",
+            "offset": "0x3E8",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Shot Under Basket",
+            "offset": "0x3D4",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Spin Jumper Tendency",
+            "offset": "0x3ED",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Spot Up Shot Mid",
+            "offset": "0x3DA",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Spot Up Shot 3pt",
+            "offset": "0x3E2",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Step Through Shot",
+            "offset": "0x3D4",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Stepback Jumper Mid",
+            "offset": "0x3EC",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Stepback Jumper 3pt",
+            "offset": "0x3EC",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Transition Pull Up 3pt",
+            "offset": "0x3EE",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Use Glass",
+            "offset": "0x3F1",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Driving Layup Tendency",
+            "offset": "0x3C8",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Standing Dunk Tendency",
+            "offset": "0x3C9",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Driving Dunk Tendency",
+            "offset": "0x3CA",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Flashy Dunk",
+            "offset": "0x3CC",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Alley-Oop",
+            "offset": "0x3CC",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Putback Dunk",
+            "offset": "0x3CD",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Crash",
+            "offset": "0x3CE",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Spin Layup",
+            "offset": "0x3D0",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Hop Step Layup",
+            "offset": "0x3D0",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Euro Step Layup",
+            "offset": "0x3D1",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Floater",
+            "offset": "0x3D2",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Triple Threat Pump Fake",
+            "offset": "0x3F6",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Triple Threat Jab Step",
+            "offset": "0x3F8",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Triple Threat Idle",
+            "offset": "0x3F8",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Triple Threat Shoot",
+            "offset": "0x3F9",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Setup With Sizeup",
+            "offset": "0x3FA",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Setup With Hesitation",
+            "offset": "0x3FC",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "No Setup Dribble",
+            "offset": "0x3FC",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Drive",
+            "offset": "0x3F2",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Spot Up Drive",
+            "offset": "0x3F4",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Off Screen Drive",
+            "offset": "0x3F4",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Drive Right",
+            "offset": "0x3F5",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Driving Crossover",
+            "offset": "0x3FD",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Driving Spin",
+            "offset": "0x3FE",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Driving Step Back",
+            "offset": "0x400",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Driving Half Spin",
+            "offset": "0x400",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Driving Double Crossover",
+            "offset": "0x401",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Driving Behind The Back",
+            "offset": "0x402",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Driving Dribble Hesitation",
+            "offset": "0x404",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Driving In And Out",
+            "offset": "0x404",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "No Driving Dribble Move",
+            "offset": "0x405",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Attack Strong On Drive",
+            "offset": "0x406",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Dish To Open Man",
+            "offset": "0x408",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Flashy Pass",
+            "offset": "0x421",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Alley Oop Pass",
+            "offset": "0x422",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Post Up",
+            "offset": "0x409",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Post Shimmy Shot",
+            "offset": "0x411",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Post Face Up",
+            "offset": "0x412",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Post Back Down",
+            "offset": "0x414",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Post Aggressive Backdown",
+            "offset": "0x414",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shoot From Post",
+            "offset": "0x415",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Post Hook Left",
+            "offset": "0x416",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Post Hook Right",
+            "offset": "0x418",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Post Fade Left",
+            "offset": "0x418",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Post Fade Right",
+            "offset": "0x419",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Post Up And Under",
+            "offset": "0x41A",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Post Hop Shot Tendency",
+            "offset": "0x41C",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Post Step Back Shot",
+            "offset": "0x41C",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Post Drive",
+            "offset": "0x41D",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Post Spin",
+            "offset": "0x41E",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Post Drop Step",
+            "offset": "0x420",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Post Hop Step",
+            "offset": "0x420",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Shoot",
+            "offset": "0x3C8",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Touches",
+            "offset": "0x408",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Roll Vs Pop",
+            "offset": "0x40A",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Transition Spot Up",
+            "offset": "0x40C",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Iso Vs Elite Defender",
+            "offset": "0x40C",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Iso Vs Good Defender",
+            "offset": "0x40D",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Iso Vs Average Defender",
+            "offset": "0x40E",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Iso Vs Poor Defender",
+            "offset": "0x410",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Play Discipline",
+            "offset": "0x410",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Pass Interception",
+            "offset": "0x424",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Take Charge",
+            "offset": "0x424",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "On Ball Steal",
+            "offset": "0x425",
+            "startBit": 6,
+            "length": 7
+        },
+        {
+            "name": "Contest Shot",
+            "offset": "0x426",
+            "startBit": 5,
+            "length": 7
+        },
+        {
+            "name": "Block Shot",
+            "offset": "0x428",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Foul",
+            "offset": "0x428",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Hard Foul",
+            "offset": "0x429",
+            "startBit": 6,
+            "length": 7
+        }
+    ],
+    "Signatures": [
+        {
+            "name": "Jumpshot Base",
+            "offset": "0x374",
+            "startBit": 0,
+            "length": 10
+        },
+        {
+            "name": "Release 1",
+            "offset": "0x378",
+            "startBit": 0,
+            "length": 10
+        },
+        {
+            "name": "Jumpshot Blending",
+            "offset": "0x33D",
+            "startBit": 3,
+            "length": 7
+        },
+        {
+            "name": "Release 2",
+            "offset": "0x379",
+            "startBit": 2,
+            "length": 10
+        },
+        {
+            "name": "Release Timing",
+            "offset": "0x30A",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Free Throw",
+            "offset": "0x389",
+            "startBit": 1,
+            "length": 9
+        },
+        {
+            "name": "Go-To Shot",
+            "offset": "0x376",
+            "startBit": 4,
+            "length": 6
+        },
+        {
+            "name": "Dribble Pull-Up",
+            "offset": "0x30B",
+            "startBit": 0,
+            "length": 7
+        },
+        {
+            "name": "Spin Jumper",
+            "offset": "0x1CA",
+            "startBit": 4,
+            "length": 6
+        },
+        {
+            "name": "Hop Jumper",
+            "offset": "0x2FC",
+            "startBit": 7,
+            "length": 7
+        },
+        {
+            "name": "Layup Package",
+            "offset": "0x26B",
+            "startBit": 2,
+            "length": 6
+        },
+        {
+            "name": "Go-To Dunk Package",
+            "offset": "0x2F4",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 2",
+            "offset": "0x2F5",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 3",
+            "offset": "0x2F6",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 4",
+            "offset": "0x372",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 5",
+            "offset": "0x2D0",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 6",
+            "offset": "0x2D1",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 7",
+            "offset": "0x2D2",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 8",
+            "offset": "0x2D3",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 9",
+            "offset": "0x2D4",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 10",
+            "offset": "0x2D5",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 11",
+            "offset": "0x2D6",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 12",
+            "offset": "0x2D7",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 13",
+            "offset": "0x2E9",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 14",
+            "offset": "0x2EA",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Dunk Package 15",
+            "offset": "0x2EB",
+            "startBit": 0,
+            "length": 8
+        },
+        {
+            "name": "Post Fade",
+            "offset": "0x1C9",
+            "startBit": 6,
+            "length": 6
+        },
+        {
+            "name": "Post Hook",
+            "offset": "0x1BC",
+            "startBit": 6,
+            "length": 6
+        },
+        {
+            "name": "Post Hop Shot",
+            "offset": "0x391",
+            "startBit": 3,
+            "length": 4
+        },
+        {
+            "name": "Post Spin Shot",
+            "offset": "0x387",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Dribble Style",
+            "offset": "0x362",
+            "startBit": 3,
+            "length": 6
+        },
+        {
+            "name": "Pass Style",
+            "offset": "0x34C",
+            "startBit": 0,
+            "length": 5
+        },
+        {
+            "name": "Signature Size-Up",
+            "offset": "0x364",
+            "startBit": 0,
+            "length": 6
+        },
+        {
+            "name": "Regular Breakdown Combos",
+            "offset": "0x382",
+            "startBit": 2,
+            "length": 6
+        },
+        {
+            "name": "Aggressive Breakdown Combos",
+            "offset": "0x383",
+            "startBit": 1,
+            "length": 6
+        },
+        {
+            "name": "Escape Moves",
+            "offset": "0x364",
+            "startBit": 7,
+            "length": 6
+        },
+        {
+            "name": "Crossover Combos",
+            "offset": "0x1B7",
+            "startBit": 2,
+            "length": 5
+        },
+        {
+            "name": "Moving Crossover",
+            "offset": "0x384",
+            "startBit": 0,
+            "length": 6
+        },
+        {
+            "name": "Moving Behind The Back",
+            "offset": "0x380",
+            "startBit": 6,
+            "length": 6
+        },
+        {
+            "name": "Moving Stepback",
+            "offset": "0x36F",
+            "startBit": 1,
+            "length": 6
+        },
+        {
+            "name": "Moving Spin",
+            "offset": "0x1BC",
+            "startBit": 0,
+            "length": 6
+        },
+        {
+            "name": "Moving Hesitation",
+            "offset": "0x384",
+            "startBit": 7,
+            "length": 5
+        },
+        {
+            "name": "Triple Threat Style",
+            "offset": "0x2E8",
+            "startBit": 3,
+            "length": 4
+        },
+        {
+            "name": "Motion Style",
+            "offset": "0x2E4",
+            "startBit": 0,
+            "length": 9
+        },
+        {
+            "name": "Pre-Game 1",
+            "offset": "0x276",
+            "startBit": 4,
+            "length": 8
+        },
+        {
+            "name": "Pre-Game 2",
+            "offset": "0x2CD",
+            "startBit": 6,
+            "length": 8
+        },
+        {
+            "name": "Jumpball Ritual",
+            "offset": "0x2F9",
+            "startBit": 6,
+            "length": 5
+        },
+        {
+            "name": "Dunk Emotion",
+            "offset": "0x0FF",
+            "startBit": 7,
+            "length": 1
+        },
+        {
+            "name": "Chew Gum",
+            "offset": "0x0FF",
+            "startBit": 6,
+            "length": 1
+        }
+    ],
+    "Gear": [
+        {
+            "name": "Shoe Home",
+            "offset": "0x170",
+            "startBit": 0,
+            "length": 13
+        },
+        {
+            "name": "Shoe Away",
+            "offset": "0x171",
+            "startBit": 5,
+            "length": 13
+        },
+        {
+            "name": "Sock Length Home",
+            "offset": "0x160",
+            "startBit": 4,
+            "length": 4
+        },
+        {
+            "name": "Sock Length Away",
+            "offset": "0x161",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Undershirt",
+            "offset": "0x2F7",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Undershirt Home Color",
+            "offset": "0x33F",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Undershirt Away Color",
+            "offset": "0x2F9",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Shorts",
+            "offset": "0x193",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Shorts Preferred Type",
+            "offset": "0x33D",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Shorts Frequency",
+            "offset": "0x344",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Shorts Home Color",
+            "offset": "0x180",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Shorts Away Color",
+            "offset": "0x180",
+            "startBit": 3,
+            "length": 3
+        }
+    ],
+    "Hotzones": [
+        {
+            "name": "Under Basket",
+            "offset": "0x1B8",
+            "startBit": 0,
+            "length": 2
+        },
+        {
+            "name": "Close Left",
+            "offset": "0x1B8",
+            "startBit": 2,
+            "length": 2
+        },
+        {
+            "name": "Close Middle",
+            "offset": "0x1B8",
+            "startBit": 2,
+            "length": 2
+        },
+        {
+            "name": "Close Right",
+            "offset": "0x1BB",
+            "startBit": 4,
+            "length": 2
+        },
+        {
+            "name": "Mid-Range Left",
+            "offset": "0x1C8",
+            "startBit": 4,
+            "length": 2
+        },
+        {
+            "name": "Mid-Range Left-Center",
+            "offset": "0x1B8",
+            "startBit": 4,
+            "length": 2
+        },
+        {
+            "name": "Mid-Range Center",
+            "offset": "0x1B8",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Mid-Range Right-Center",
+            "offset": "0x2FA",
+            "startBit": 3,
+            "length": 2
+        },
+        {
+            "name": "Mid-Range Right",
+            "offset": "0x306",
+            "startBit": 7,
+            "length": 2
+        },
+        {
+            "name": "Three Left",
+            "offset": "0x1BE",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Three Left-Center",
+            "offset": "0x1BF",
+            "startBit": 6,
+            "length": 2
+        },
+        {
+            "name": "Three Center",
+            "offset": "0x163",
+            "startBit": 0,
+            "length": 2
+        },
+        {
+            "name": "Three Right-Center",
+            "offset": "0x2E7",
+            "startBit": 5,
+            "length": 2
+        },
+        {
+            "name": "Three Right",
+            "offset": "0x1BB",
+            "startBit": 0,
+            "length": 2
+        }
+    ],
+    "Accessories": [
+        {
+            "name": "Headband",
+            "offset": "0x1B6",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Headband Logo",
+            "offset": "0x377",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Headband Frequency",
+            "offset": "0x344",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Left Arm",
+            "offset": "0x180",
+            "startBit": 6,
+            "length": 5
+        },
+        {
+            "name": "Left Arm Frequency",
+            "offset": "0x346",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Left Arm Home Color",
+            "offset": "0x181",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Left Arm Away Color",
+            "offset": "0x181",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Left Elbow",
+            "offset": "0x183",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Left Elbow Frequency",
+            "offset": "0x345",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Left Elbow Home Color",
+            "offset": "0x184",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Left Elbow Away Color",
+            "offset": "0x184",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Left Wrist",
+            "offset": "0x185",
+            "startBit": 5,
+            "length": 4
+        },
+        {
+            "name": "Left Wrist Frequency",
+            "offset": "0x345",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Left Wrist Home Color",
+            "offset": "0x186",
+            "startBit": 1,
+            "length": 5
+        },
+        {
+            "name": "Left Wrist Away Color",
+            "offset": "0x186",
+            "startBit": 6,
+            "length": 5
+        },
+        {
+            "name": "Left Fingers",
+            "offset": "0x34A",
+            "startBit": 7,
+            "length": 4
+        },
+        {
+            "name": "Left Fingers Frequency",
+            "offset": "0x34A",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Left Fingers Home Color",
+            "offset": "0x18C",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Left Fingers Away Color",
+            "offset": "0x18C",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Right Arm",
+            "offset": "0x182",
+            "startBit": 1,
+            "length": 5
+        },
+        {
+            "name": "Right Arm Frequency",
+            "offset": "0x347",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Right Arm Home Color",
+            "offset": "0x182",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Right Arm Away Color",
+            "offset": "0x183",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Right Elbow",
+            "offset": "0x184",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Right Elbow Frequency",
+            "offset": "0x346",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Right Elbow Home Color",
+            "offset": "0x185",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Right Elbow Away Color",
+            "offset": "0x188",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Right Wrist",
+            "offset": "0x276",
+            "startBit": 0,
+            "length": 4
+        },
+        {
+            "name": "Right Wrist Frequency",
+            "offset": "0x345",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Right Wrist Home Color",
+            "offset": "0x187",
+            "startBit": 3,
+            "length": 5
+        },
+        {
+            "name": "Right Wrist Away Color",
+            "offset": "0x188",
+            "startBit": 3,
+            "length": 5
+        },
+        {
+            "name": "Right Fingers",
+            "offset": "0x34D",
+            "startBit": 5,
+            "length": 4
+        },
+        {
+            "name": "Right Fingers Frequency",
+            "offset": "0x34D",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Right Fingers Home Color",
+            "offset": "0x18C",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Right Fingers Away Color",
+            "offset": "0x18D",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Arm Frequency Paired",
+            "offset": "0x1E7",
+            "startBit": 7,
+            "length": 1
+        },
+        {
+            "name": "Left Leg",
+            "offset": "0x18D",
+            "startBit": 4,
+            "length": 4
+        },
+        {
+            "name": "Left Leg Frequency",
+            "offset": "0x347",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Left Leg Home Color",
+            "offset": "0x18E",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Left Leg Away Color",
+            "offset": "0x18E",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Left Knee",
+            "offset": "0x2F8",
+            "startBit": 7,
+            "length": 4
+        },
+        {
+            "name": "Left Knee Frequency",
+            "offset": "0x162",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Left Knee Home Color",
+            "offset": "0x190",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Left Knee Away Color",
+            "offset": "0x190",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Left Ankle",
+            "offset": "0x191",
+            "startBit": 4,
+            "length": 3
+        },
+        {
+            "name": "Left Ankle Frequency",
+            "offset": "0x349",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Left Ankle Home Color",
+            "offset": "0x191",
+            "startBit": 7,
+            "length": 3
+        },
+        {
+            "name": "Left Ankle Away Color",
+            "offset": "0x192",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Right Leg",
+            "offset": "0x18E",
+            "startBit": 6,
+            "length": 4
+        },
+        {
+            "name": "Right Leg Frequency",
+            "offset": "0x349",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Right Leg Home Color",
+            "offset": "0x18F",
+            "startBit": 2,
+            "length": 3
+        },
+        {
+            "name": "Right Leg Away Color",
+            "offset": "0x18F",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Right Knee",
+            "offset": "0x1C8",
+            "startBit": 0,
+            "length": 4
+        },
+        {
+            "name": "Right Knee Frequency",
+            "offset": "0x349",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Right Knee Home Color",
+            "offset": "0x190",
+            "startBit": 6,
+            "length": 3
+        },
+        {
+            "name": "Right Knee Away Color",
+            "offset": "0x191",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Right Ankle",
+            "offset": "0x192",
+            "startBit": 5,
+            "length": 3
+        },
+        {
+            "name": "Right Ankle Frequency",
+            "offset": "0x34A",
+            "startBit": 1,
+            "length": 3
+        },
+        {
+            "name": "Right Ankle Home Color",
+            "offset": "0x193",
+            "startBit": 0,
+            "length": 3
+        },
+        {
+            "name": "Right Ankle Away Color",
+            "offset": "0x193",
+            "startBit": 3,
+            "length": 3
+        },
+        {
+            "name": "Leg Frequency Paired",
+            "offset": "0x1BA",
+            "startBit": 2,
+            "length": 1
+        },
+        {
+            "name": "Knee Frequency Paired",
+            "offset": "0x1BA",
+            "startBit": 2,
+            "length": 1
+        }
+    ]
+}

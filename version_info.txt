@@ -1,0 +1,27 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(0, 1, 0, 0),
+    prodvers=(0, 1, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('040904B0', [
+        StringStruct('CompanyName', 'Disco Labs'),
+        StringStruct('FileDescription', 'Disco\'s 2K Player Editor'),
+        StringStruct('FileVersion', '0.1'),
+        StringStruct('InternalName', 'Discos2KEditor'),
+        StringStruct('LegalCopyright', '© 2025 Disco'),
+        StringStruct('OriginalFilename', 'Discos2KEditor.exe'),
+        StringStruct('ProductName', 'Disco\'s 2K Editor'),
+        StringStruct('ProductVersion', '0.1')
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [1033, 1200])])
+  ]
+)
